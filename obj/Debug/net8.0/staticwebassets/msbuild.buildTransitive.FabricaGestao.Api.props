@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="../buildMultiTargeting/FabricaGestao.Api.props" />
-</Project>

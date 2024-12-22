@@ -108,7 +108,7 @@ public class ProdutoController(ContextoDados contexto) : ControllerBase
 
     [HttpPost]
     [Route("v1/produtos")]
-    public async Task<IActionResult> AdicionarProduto(ProdutoModelo modelo)
+    public async Task<IActionResult> AdicionarProduto(EditorProdutoViewModelo modelo)
     {
         if (ModelState.IsValid)
             return  BadRequest(new RespostaViewModelo<ProdutoModelo>(ModelState.ObterEstadoDeErros()));
@@ -144,7 +144,7 @@ public class ProdutoController(ContextoDados contexto) : ControllerBase
 
     [HttpPut]
     [Route("v1/produtos/{id:int}")]
-    public async Task<IActionResult> AtualizarProduto(int id, ProdutoModelo modelo)
+    public async Task<IActionResult> AtualizarProduto(int id, EditorProdutoViewModelo modelo)
     {
         try
         {

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GestaoDeFabrica.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7e2c79b7a40ef9ba7321121b45d3e7149b60e29d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+08ca88255b40af1ef7be356fc723d32002d73c3c")]
 [assembly: System.Reflection.AssemblyProductAttribute("GestaoDeFabrica.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GestaoDeFabrica.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

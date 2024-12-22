@@ -13,7 +13,6 @@
         "packagesPath": "/Users/fabriciodesouza/.nuget/packages/",
         "outputPath": "/Users/fabriciodesouza/RiderProjects/GestaoDeFabrica.Api/obj/",
         "projectStyle": "PackageReference",
-        "UsingMicrosoftNETSdk": false,
         "configFilePaths": [
           "/Users/fabriciodesouza/.nuget/NuGet/NuGet.Config"
         ],
